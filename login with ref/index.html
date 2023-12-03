@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login</title>
+    <!-- main template css file -->
+    <link rel="stylesheet" href="css/login.css">
+    <!-- render all elements normally -->
+    <link rel="stylesheet" href="css/normalize.css">
+    <!-- font awesome library -->
+    <link rel="stylesheet" href="css/all.min.css">
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="container">
+
+    <div class="section2">
+      <div class="circle-form hide"></div>
+      <div class="con-sec2">
+        <div class="gishti2 show">
+          <img  class="show"  src="./images/camera.png" alt="">
+        </div>
+        <div class="logo">
+          <div class="half-circle"><span>24</span><i class="fa-solid fa-phone-flip"></i></div>
+          <h2>sign in</h2>
+        </div>
+        <form>
+          <div>
+            <!-- <i class="fa-regular fa-user"></i> -->
+            <svg xmlns="http://www.w3.org/2000/svg" class="i"  height="1em" viewBox="0 0 448 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M224 256A128 128 0 1 0 224 0a128 128 0 1 0 0 256zm-45.7 48C79.8 304 0 383.8 0 482.3C0 498.7 13.3 512 29.7 512H418.3c16.4 0 29.7-13.3 29.7-29.7C448 383.8 368.2 304 269.7 304H178.3z"/></svg>
+            <input type="text" placeholder="user name">
+          </div>
+          <div>
+            <!-- <i class="fa-solid fa-lock"></i> -->
+            <svg xmlns="http://www.w3.org/2000/svg" class="i" height="1em" viewBox="0 0 448 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M144 144v48H304V144c0-44.2-35.8-80-80-80s-80 35.8-80 80zM80 192V144C80 64.5 144.5 0 224 0s144 64.5 144 144v48h16c35.3 0 64 28.7 64 64V448c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V256c0-35.3 28.7-64 64-64H80z"/></svg>
+            <input type="password" placeholder="password">
+          </div>
+          <input type="submit" value="submit">
+        </form>
+      </div>
+      <div class="empty"></div>
+    </div>
+
+    <div class="section1">
+      <div class="circle1"></div>
+      <div class="circle2"></div>
+      <div class="circle3"></div>
+      <div class="wave">
+        <img src="./images/wave.jpg" alt="">
+        <button class="button" id="animateButton">SIGN IN</button>
+        <div class="gishti">
+          <img src="./images/camera.png" alt="">
+        </div>
+      </div>
+        <div class="class-video">
+          <img src="./images/viedeo.png" alt="">
+          <div class="stick">
+            <div class="one"></div>
+            <div class="two"></div>
+            <div class="three"></div>
+          </div>
+        </div>
+    </div>
+  </div>
+
+  <script src="js/jquery-3.7.0.min.js"></script> 
+  <script src="js/login.js"></script>
+
+  <!-- <script>
+  $(document).ready(function() {
+      $('.empty').hide()
+      $('#animateButton').click(function() {
+        $('.section1').addClass('animate');
+        $('.section2').addClass('animate2');
+        // $('.section2').addClass('back');
+        $("#animateButton").hide(1500);
+        $('.circle1').hide(1000);
+        $(".gishti").show(2000)
+      });
+
+      $(window).resize(function() {
+  location.reload();
+});
+      if (window.matchMedia('(max-width: 1498px)').matches) {
+        $('.circle1,.circle2,.circle3,.class-video,img,.gishti').addClass('hide');
+        $('.section1').addClass('background');
+        $('#animateButton').addClass('button-style');
+        $('#animateButton').click(function() {
+        $('.section1').addClass('animate-sec1');
+        $('.section2').addClass('animate-sec2');
+        $(".gishti").hide();
+        $(".con-sec2").css('width','100%');
+        $(".logo i").css('font-size','50px');
+        $(".logo .half-circle").css('padding','50px');
+        $(".container").css('background-color','#52c6cb');
+        $('.circle-form').addClass('show');
+      });
+    }
+  });
+    </script> -->
+</body>
+</html>

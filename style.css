@@ -1,0 +1,216 @@
+/* 59 */
+/* .small {
+    background-color: black;
+    color: white;
+    font-size: 1.5rem;
+    width: 500px;
+    text-align: center;
+    padding: 10px;
+} */
+/* 60 */
+/* *{
+    margin: 0;
+}
+.container {
+    width: 200px;
+    height: 100vh;
+    background-color: black;
+    color: aliceblue;
+}
+p{
+    padding: 10px;
+
+}
+.container p:hover {
+    background-color: white;
+    color: black;
+}
+button {
+background-color: black;
+color: aliceblue;
+border: none;
+border-radius: 3px;
+margin-bottom: 2px;
+}
+button:hover {
+    background-color: rgba(0, 0, 0, 0.488);
+    color: rgba(255, 255, 255, 0.637);
+}
+#close {
+    position: absolute;
+    left: 225px;
+}
+.hide {
+    display: none;
+} */
+
+/* 62 */
+/* .gallary {
+    height: 100vh;
+}
+.photos img {
+    width: 220px;
+    height: 200px;
+    border: 5px solid black;
+}
+.photos img:hover {
+    border: 5px solid gray;
+}
+.main img {
+    width: 690px;
+    height: 550px;
+    border: 5px solid;
+} */
+
+/* 63 */
+/* 64 scroll */
+/* body {
+    height: 2000px;
+    width: 2000px;
+}
+#btn {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: orange;
+    color: white;
+    border: none;
+    display: none;
+    cursor:  pointer;
+    position: fixed;
+bottom: 10px;
+right: 10px;
+} */
+
+/* جرس  */
+/* .far {
+    border-radius: 50%;
+    font-size: 25px;
+    position: relative;
+    animation: rotateAnimation 1.5s ;
+}
+@keyframes rotateAnimation {
+    0% {
+        transform: rotate(40deg) scale(1.5);
+    }
+    25% {
+        transform: rotate(-40deg) scale(1.5);
+    }
+    50% {
+        transform: rotate(20deg) scale(1.2);
+
+    }
+    75% {
+        transform: rotate(-20deg) scale(1.2);
+    }
+    100% {
+        transform: rotate(0deg);
+    }
+  } */
+
+/* 68 */
+/* div {
+    width: 100px;
+    height: 100px;
+}
+#green {
+    background-color: green;
+}
+#red {
+    background-color: red;
+}
+#blue {
+    background-color: blue;
+}
+#black {
+    background-color: black;
+}
+#purple {
+    background-color: purple
+} */
+
+/* 70 71  */
+/* *{
+    padding: 0;
+    margin: 0;
+}
+body {
+    background-color: #222;
+    color: #fff;
+    font-family: system-ui;
+
+}
+.cruds {
+    width: 80%;
+    margin: auto;
+}
+.head {
+    text-transform: uppercase;
+    text-align: center;
+    margin: 10px 0;
+}
+input {
+    width: 100%;
+    height: 40px;
+    padding: 4px;
+    background-color: #111;
+    border-radius: 5px;
+    margin: 4px 0;
+    outline: none;
+    color: #fff;
+    border: none;
+    transition: 0.7s;
+}
+input:focus {
+    transform: scale(1.1);
+    background-color: black;
+}
+.price input {
+    width: 20%;
+}
+#total {
+    background-color: rgb(197, 21, 21);
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+#total::before {
+    content: "total :";
+}
+
+button {
+    width: 100%;
+    height: 40px;
+    background-color: #42007b;
+    color: white;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    margin: 4px;
+    transition: 0.7s;
+    cursor: pointer;
+}
+button:hover {
+
+    letter-spacing: 2px;
+    background-color: rgb(129, 15, 129);
+   
+}
+
+.btnsearch {
+    display: flex;
+    justify-content: space-between;
+}
+.btnsearch button {
+    width: 45%;
+}
+table {
+    width: 100%;
+    text-align: center;
+    margin: 10px 0;
+}
+table th {
+    text-transform: uppercase;
+}
+th,td {
+    padding: 5px;
+} */
